@@ -219,6 +219,24 @@ let devices = {
     'Price': '$1,299 - $2,299',
     'Release': '2024'
   },
+  'vision pro': {
+    'OS': 'visionOS',
+    'Processor': 'M2, R1',
+    'CPU': '8 core',
+    'GPU': '10 core',
+    'Neural Engine': '16 core',
+    'Storage': '256GB - 1TB',
+    'Display': 'Micro-OLED, 23M pixels, 3D display system, 92% DCI-P3',
+    'Refresh Rate': '90Hz, 96Hz, 100Hz',
+    'Video Mirroring': 'Up to 720p AirPlay for mirroring your view in Apple Vision Pro to any AirPlay enabled device,including iPhone, iPad, Mac, Apple TV (2nd generation or later), or AirPlay enabled smart TV',
+    'Audio Technology': 'Spatial Audio with dynamic head tracking, Personalized Spatial Audio and audio ray tracing, Six‑mic array with directional beamforming, Supports H2‑to‑H2 ultra‑low‑latency connection to AirPods Pro (2nd generation) with MagSafe Charging Case (USB‑C)',
+    'Camera': 'Stereoscopic 3D main camera system, 6.5 stereo megapixels, 18mm, f/2.00 aperture',
+    'Cellular Connectivity': '5G (sub-6 GHz), Gigabit LTE, UMTS/HSPA/HSPA+/DC-HSDPA',
+    'Wireless Connectivity': 'Wi-Fi 6, Bluetooth 5.3',
+    'Sensors': 'Two high resolution main cameras, Six-world facing tracking cameras, Four eye‑tracking cameras, TrueDepth camera, LiDAR Scanner, Four inertial measurement units (IMUs), Flicker sensor, Ambient light sensor',
+    'Price': '$3,499 - $3,899',
+    'Release': '2024'
+  },
   'unknown': {
     'devices': 'not found'
   }
