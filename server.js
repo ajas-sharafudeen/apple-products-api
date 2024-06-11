@@ -179,7 +179,7 @@ let devices = {
     'Price': '$799 - $1,299',
     'Release': '2024'
   },
-  'ipad air 11 m4': {
+  'ipad pro 11 m4': {
     'Processor': 'M4',
     'CPU': '9 core / 10 core',
     'GPU': '10 core',
@@ -199,7 +199,7 @@ let devices = {
     'Price': '$999 - $1,999',
     'Release': '2024'
   },
-  'ipad air 13 m4': {
+  'ipad pro 13 m4': {
     'Processor': 'M4',
     'CPU': '9 core / 10 core',
     'GPU': '10 core',
