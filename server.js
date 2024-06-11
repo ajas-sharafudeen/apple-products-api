@@ -96,7 +96,8 @@ let devices = {
     'Video Recording': 'HDR video recording with Dolby Vision upto 4K video recording at 60 fps, 4K video recording upto 60 fps, 1080p HD upto 60fps',
     'Video Playback': 'HDR with Dolby Vision, HDR10, and HLG',
     'Cellular Connectivity': '5G (sub-6 GHz and mmWave), Gigabit LTE, DC-HSDPA, UMTS/HSPA+, GSM/EDGE',
-    'Wireless Connectivity': 'Wi-Fi 6, Bluetooth 5.3, NFC, GPS, GLONASS, Galileo, QZSS, and BeiDou...',
+    'Wireless Connectivity': 'Wi-Fi 6, Bluetooth 5.3, NFC, GPS, GLONASS, Galileo, QZSS, and BeiDou',
+    'Sensors': 'High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors, Barometer',
     'Price': '$799 - $1,099',
     'Release': '2023'
   },
@@ -116,9 +117,50 @@ let devices = {
     'Video Playback': 'HDR with Dolby Vision, HDR10, and HLG',
     'Cellular Connectivity': '5G (sub-6 GHz and mmWave), Gigabit LTE, DC-HSDPA, UMTS/HSPA+, GSM/EDGE',
     'Wireless Connectivity': 'Wi-Fi 6E, Bluetooth 5.3, NFC, Precision dual-frequency (GPS, GLONASS, Galileo, QZSS, BeiDou and NavIC)',
+    'Sensors': 'LiDar Scanner, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors, Barometer',
     'Price': '$999 - $1,499',
     'Release': '2023'
   },
+  'iphone 15 pro max': {
+    'Processor': 'A17 Pro',
+    'CPU': '6 core',
+    'GPU': '6 core',
+    'Neural Engine': '16 core',
+    'Storage': '128GB - 1TB',
+    'Display': '6.7-inch OLED Super Retina XDR display with ProMotion Technology',
+    'Build Material': 'Titanium with textured matte glass back',
+    'SIM Card': 'Dual eSIM, no physical SIM',
+    'Front Camera': '12MP Photos, 4K video recording uptp 60fps, 1080p HD upto 60fps',
+    'Rear Camera': 'Pro camera system - 48MP Main | 12MP Ultra Wide | 12MP Telephoto',
+    'Optical Zoom': '.5x, 1x, 2x, 5x',
+    'Video Recording': 'ProRes video recording up to 4K at 60 fps with external recording, HDR with Dolby Vision up to 4K at 60fps',
+    'Video Playback': 'HDR with Dolby Vision, HDR10, and HLG',
+    'Cellular Connectivity': '5G (sub-6 GHz and mmWave), Gigabit LTE, DC-HSDPA, UMTS/HSPA+, GSM/EDGE',
+    'Wireless Connectivity': 'Wi-Fi 6E, Bluetooth 5.3, NFC, Precision dual-frequency (GPS, GLONASS, Galileo, QZSS, BeiDou and NavIC)',
+    'Sensors': 'LiDar Scanner, High dynamic range gyro, High-g accelerometer, Proximity sensor, Dual ambient light sensors, Barometer',
+    'Price': '$1,199 - $1,599',
+    'Release': '2023'
+  },
+  'ipad air 11': {
+    'Processor': 'M2',
+    'CPU': '8 core',
+    'GPU': '9 core',
+    'Neural Engine': '16 core',
+    'Storage': '128GB - 1TB',
+    'Display': '11-inch Liquid Retina, LED backlit Multi-Touch display with IPS technology',
+    'SDR Brightness': '500 nits max',
+    'SIM Card': 'eSIM',
+    'Front Camera': '12MP Landscape Ultra Wide camera',
+    'Rear Camera': '12MP Wide camera',
+    'Digital Zoom': 'up to 5x',
+    'Video Recording': '4K video recording upto 60fps, 1080p HD video recording upto 60fps',
+    'Cellular Connectivity': '5G (sub-6 GHz), Gigabit LTE, UMTS/HSPA/HSPA+/DC-HSDPA',
+    'Wireless Connectivity': 'Wi-Fi 6E, MIMO, WiFi + Cellular, Bluetooth 5.3, GPS/GNSS)',
+    'Sensors': 'Touch ID, Three-axis gyro, Accelerometer, Ambient light sensors, Barometer',
+    'Price': '$599 - $1,099',
+    'Release': '2024'
+  },
+
   'unknown': {
     'devices': 'not found'
   }
