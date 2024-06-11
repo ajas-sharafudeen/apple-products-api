@@ -141,7 +141,7 @@ let devices = {
     'Price': '$1,199 - $1,599',
     'Release': '2023'
   },
-  'ipad air 11': {
+  'ipad air 11 m2': {
     'Processor': 'M2',
     'CPU': '8 core',
     'GPU': '9 core',
@@ -160,7 +160,7 @@ let devices = {
     'Price': '$599 - $1,099',
     'Release': '2024'
   },
-  'ipad air 13': {
+  'ipad air 13 m2': {
     'Processor': 'M2',
     'CPU': '8 core',
     'GPU': '9 core',
@@ -177,6 +177,25 @@ let devices = {
     'Wireless Connectivity': 'Wi-Fi 6E, MIMO, WiFi + Cellular, Bluetooth 5.3, GPS/GNSS)',
     'Sensors': 'Touch ID, Three-axis gyro, Accelerometer, Ambient light sensors, Barometer',
     'Price': '$799 - $1,299',
+    'Release': '2024'
+  },
+  'ipad air 11 m4': {
+    'Processor': 'M4',
+    'CPU': '9 core / 10 core',
+    'GPU': '10 core',
+    'Neural Engine': '16 core',
+    'Storage': '256GB - 2TB',
+    'Display': '11-inch Ultra Retina XDR Display, Tandem OLED',
+    'SDR Brightness': '1000 nits max',
+    'SIM Card': 'eSIM',
+    'Front Camera': '12MP Landscape Ultra Wide TrueDepth camera',
+    'Rear Camera': '12MP Wide camera',
+    'Digital Zoom': 'up to 5x',
+    'Video Recording': 'ProRes video recording up to 4K at 30 fps/60fps with external recording, 4K and 1080p HD video recording upto 60fps',
+    'Cellular Connectivity': '5G (sub-6 GHz), Gigabit LTE, UMTS/HSPA/HSPA+/DC-HSDPA',
+    'Wireless Connectivity': 'Wi-Fi 6E, MIMO, WiFi + Cellular, Bluetooth 5.3, GPS/GNSS)',
+    'Sensors': 'Face ID, LiDAR, Three-axis gyro, Accelerometer, Ambient light sensors, Barometer',
+    'Price': '$999 - $1,999',
     'Release': '2024'
   },
   'unknown': {
