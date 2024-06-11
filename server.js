@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
 const port = process.env.port || 4000
+const cors = require('cors')
+
+app.use(cors())
 
 let devices = {
   'mac mini': {
