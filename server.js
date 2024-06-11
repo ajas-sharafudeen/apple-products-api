@@ -160,7 +160,25 @@ let devices = {
     'Price': '$599 - $1,099',
     'Release': '2024'
   },
-
+  'ipad air 13': {
+    'Processor': 'M2',
+    'CPU': '8 core',
+    'GPU': '9 core',
+    'Neural Engine': '16 core',
+    'Storage': '128GB - 1TB',
+    'Display': '13-inch Liquid Retina, LED backlit Multi-Touch display with IPS technology',
+    'SDR Brightness': '600 nits max',
+    'SIM Card': 'eSIM',
+    'Front Camera': '12MP Landscape Ultra Wide camera',
+    'Rear Camera': '12MP Wide camera',
+    'Digital Zoom': 'up to 5x',
+    'Video Recording': '4K video recording upto 60fps, 1080p HD video recording upto 60fps',
+    'Cellular Connectivity': '5G (sub-6 GHz), Gigabit LTE, UMTS/HSPA/HSPA+/DC-HSDPA',
+    'Wireless Connectivity': 'Wi-Fi 6E, MIMO, WiFi + Cellular, Bluetooth 5.3, GPS/GNSS)',
+    'Sensors': 'Touch ID, Three-axis gyro, Accelerometer, Ambient light sensors, Barometer',
+    'Price': '$799 - $1,299',
+    'Release': '2024'
+  },
   'unknown': {
     'devices': 'not found'
   }
