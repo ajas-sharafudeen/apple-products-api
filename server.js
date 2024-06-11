@@ -4,21 +4,86 @@ const port = process.env.port || 4000
 
 let devices = {
   'mac mini': {
-    'Processor': 'Apple M2 chip',
-    'CPU': '8 core',
-    'GPU': '10 core',
-    'RAM': '8-24GB',
-    'Storage': '256GB-2TB',
-    'Ports': '2x Thunderbolt/USB 4, HDMI, 2x USB-A, Ethernet (up to 10GB), 3.5mm headphone jack',
-    'Connectivity': 'Wi-Fi 6E, Bluetooth 5.3',
+    'Processor': 'Apple M2/M2 Pro',
+    'CPU': '8 core - 12 core',
+    'GPU': '10 core - 19 core',
+    'RAM': '8GB - 32GB',
+    'Storage': '256GB - 8TB',
+    'Ports': 'Thunderbolt 4, USB 4, HDMI, 2x USB-A, Ethernet (up to 10GB), 3.5mm headphone jack',
+    'Connectivity': 'Wi-Fi 6/6E, Bluetooth 5/5.3',
     'Dimensions': '7.7 x 7.7 x 1.4 inches',
     'Weight': '2.6 pounds',
-    'Price': '$599 - $799'
+    'Price': '$599 - $1,299',
+    'Release': '2023'
+  },
+  'macbook pro': {
+    'Processor': 'Apple M3/M3 Pro/M3 Max',
+    'CPU': '8 core - 16 core',
+    'GPU': '10 core - 40 core',
+    'RAM': '8GB - 128GB',
+    'Storage': '512GB - 8TB',
+    'Ports': 'Thunderbolt 3/4, USB 4, DisplayPort, SDXC card slot, HDMI port, 3.5mm headphone jack, MagSafe 3 port',
+    'Connectivity': 'Wi-Fi 6E, Bluetooth 5.3',
+    'Dimensions': '0.61 x 12.31 x 8.71 inches',
+    'Weight': '3.4 - 3.6 pounds',
+    'Price': '$1,599 - $3,199',
+    'Release': '2023'
+  },
+  'macbook air': {
+    'Processor': 'Apple M2/M3',
+    'CPU': '8 core',
+    'GPU': '10 core',
+    'RAM': '8GB - 24GB',
+    'Storage': '256GB - 2TB',
+    'Ports': 'Thunderbolt 3, USB 4, DisplayPort, 3.5mm headphone jack, MagSafe 3 port',
+    'Connectivity': 'Wi-Fi 6/6E, Bluetooth 5.3',
+    'Dimensions': '0.44 x 11.97 x 8.46 inches',
+    'Weight': '2.7 pounds',
+    'Price': '$999 - $1,499',
+    'Release': '2022/2023'
+  },
+  'imac': {
+    'Processor': 'Apple M3',
+    'CPU': '8 core',
+    'GPU': '8 - 10 core',
+    'RAM': '8GB - 24GB',
+    'Storage': '256GB - 2TB',
+    'Ports': 'Thunderbolt 3, USB 3/3.1 Gen 2/USB 4, DisplayPort, Gigabit Ethernet',
+    'Connectivity': 'Wi-Fi 6E, Bluetooth 5.3',
+    'Dimensions': '0.44 x 11.97 x 8.46 inches',
+    'Weight': '9.75 - 9.87 pounds',
+    'Price': '$1,299 - $1,699',
+    'Release': '2023'
+  },
+  'mac studio': {
+    'Processor': 'Apple M2 Max/M2 Ultra',
+    'CPU': '12 - 24 core',
+    'GPU': '30 - 76 core',
+    'RAM': '32GB - 192GB',
+    'Storage': '512GB - 8TB',
+    'Ports': 'Thunderbolt 4, USB 3.1 Gen 2/USB 4, USB-A, SDXC card slot (UHS-II), DisplayPort, HDMI Port, Gigabit Ethernet, 3.5mm headphone jack',
+    'Connectivity': 'Wi-Fi 6E, Bluetooth 5.3',
+    'Dimensions': '3.7 x 7.7 x 7.7 inches',
+    'Weight': '5.9 - 7.9 pounds',
+    'Price': '$1,999 - $3,999',
+    'Release': '2023'
+  },
+  'mac pro': {
+    'Processor': 'Apple M2 Ultra',
+    'CPU': '24 core',
+    'GPU': '60 - 76 core',
+    'Neural Engine': '32 core',
+    'RAM': '1TB - 8TB',
+    'Storage': '512GB - 8TB',
+    'Ports': 'Thunderbolt 4, USB 3.1 Gen 2/USB 4, USB-A, Serial ATA ports, DisplayPort, HDMI Port, 10Gb Ethernet, 3.5mm headphone jack',
+    'Connectivity': 'Wi-Fi 6E, Bluetooth 5.3',
+    'Weight': '37.2 - 37.9 pounds',
+    'Price': '$6,999 - $12,448',
+    'Release': '2023'
   },
   'unknown': {
     'devices': 'not found'
   }
-
 }
 
 app.get('/', (req, res) => {
